@@ -28,5 +28,7 @@ time.sleep(1)
 
 # zamknięcie przeglądarki -> jak zamknięcie poprzez X
 # driver.close() zamknięcie 1 okna.
+driver.close()
+time.sleep(1)
 driver.quit()
 
